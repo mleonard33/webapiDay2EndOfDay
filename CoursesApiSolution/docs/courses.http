@@ -1,0 +1,16 @@
+### Get All Courses
+
+GET http://localhost:9090/courses HTTP/1.1
+Accept: application/json
+
+
+### Add a Course (Version 1)
+POST http://localhost:9090/courses HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+    "title": "Event Driven Services 2 - Stream Processing",
+    "numberOfHours": 25.5,
+    "deliveryLocation": "OnPrem"
+}
